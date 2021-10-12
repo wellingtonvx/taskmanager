@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar'
 import React, { useState, useEffect } from 'react'
-import { Text, View } from 'react-native'
 import { loadAsync } from 'expo-font'
 
 import { NavigationContainer } from '@react-navigation/native'
@@ -32,6 +31,7 @@ export default function App() {
   return fontsLoaded ? (
     <NavigationContainer>
       <AppRoutes />
+      <StatusBar />
     </NavigationContainer>
   ) : null
 }

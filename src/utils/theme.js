@@ -46,7 +46,7 @@ export const FONTS = {
     fontSize: SIZES.largeTitle,
     lineHeight: 55
   },
-  h1: { fontFamily: 'Poppins-Black', fontSize: SIZES.h1, lineHeight: 36 },
+  h1: { fontFamily: 'Poppins-Bold', fontSize: SIZES.h1, lineHeight: 36 },
   h2: { fontFamily: 'Poppins-Bold', fontSize: SIZES.h2, lineHeight: 30 },
   h3: { fontFamily: 'Poppins-Bold', fontSize: SIZES.h3, lineHeight: 22 },
   h4: { fontFamily: 'Poppins-Bold', fontSize: SIZES.h4, lineHeight: 22 },
